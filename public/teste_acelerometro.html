@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina inicial</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="container-1">
+      <div id="contain">
+        <canvas id="velocimetro" class="canvas" width="450" height="450"></canvas>
+        <span id="velocimetroValor"></span>
+      </div>
+      <div class="battery">
+        <div id="bateria1" class="battery-level alert" style="height:100%;"></div>
+      </div>
+      <div class="distancia">
+          <div id="texto">sad</div>
+          <div id="texto2">sad</div>
+      </div>
+      <div id="airelay">AIR AQUI</div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="js/gauge.min.js"></script>
+    <script src="js/elements/velocimetro.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
